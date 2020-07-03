@@ -5,6 +5,6 @@ class Meals(models.Model):
     name = models.CharField(max_length=50)
     description = models.CharField(max_length=500)
     people = models.IntegerField()
-    price = models.DecimalField(max_digits=5)
+    price = models.DecimalField(max_digits=5, decimal_places=2)
     preperation_time = models.IntegerField()
     image = models.ImageField(upload_to='meals/')
