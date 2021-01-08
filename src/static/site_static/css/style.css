@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 300;
-  color: #999999;
+  color: rgb(80, 70, 70);
 }
 
 a {
@@ -1485,4 +1485,8 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.meal_image{
+  width: 100% !important ;
 }
